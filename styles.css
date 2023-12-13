@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Adjust the layout to a column */
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.game-title {
+    color: purple; /* Set the title color to purple */
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square.selected {
+    background-color: yellow;
+}
+
