@@ -1,14 +1,14 @@
-const categories = ['The "Stans"', 'Island Nations', 'Countries with Red, White, and Blue Flags', 'Balkan Countries'];
+const categories = ['Speiser Family Members', 'Speiser Foods', 'Classic Speiser Gifts', 'Free Merch from Speiser Jobs'];
 
 let words = [
-    // Category 1: The "Stans"
-    'Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan',
-    // Category 2: Island Nations
-    'Japan', 'Madagascar', 'New Zealand', 'Sri Lanka',
-    // Category 3: Countries with Red, White, and Blue Flags
-    'Chile', 'USA', 'Costa Rica', 'France',
-    // Category 4: Balkan Countries
-    'Croatia', 'Greece', 'Albania', 'Montenegro'
+    // Category 1: Speiser Family Members
+    'Salsa', 'Connor', 'Zayda', 'Muffin',
+    // Category 2: Speiser Foods
+    'Brown Sauce', 'Challah', '"Chicken" Noodle Soup', 'Whoopie Pies',
+    // Category 3: Classic Speiser Gifts
+    'Socks', 'Cook Books', 'Chocolate Dreidels', 'Pickleball Accessories',
+    // Category 4: Free Merch from Speiser Jobs
+    'PSD Underwear', 'Spiderman Video Game Shirt', 'RSVLT Shirts', 'Nat Geo Duffel Bags'
     // Add more words as needed
 ];
 
@@ -124,10 +124,10 @@ function getCategoryForWord(word) {
 // ...
 
 const wordsByCategory = {
-    'The "Stans"': ['Uzbekistan', 'Turkmenistan', 'Tajikistan', 'Kyrgyzstan'],
-    'Island Nations': ['Japan', 'Madagascar', 'New Zealand', 'Sri Lanka'],
-    'Countries with Red, White, and Blue Flags': ['Chile', 'USA', 'Costa Rica', 'France'],
-    'Balkan Countries': ['Croatia', 'Greece', 'Albania', 'Montenegro']
+    'Speiser Family Members': ['Salsa', 'Connor', 'Zayda', 'Muffin'],
+    'Speiser Foods': ['Brown Sauce', 'Challah', '"Chicken" Noodle Soup', 'Whoopie Pies'],
+    'Classic Speiser Gifts': ['Socks', 'Cook Books', 'Chocolate Dreidels', 'Pickleball Accessories'],
+    'Free Merch from Speiser Jobs': ['PSD Underwear', 'Spiderman Video Game Shirt', 'RSVLT Shirts', 'Nat Geo Duffel Bags']
     // Add more categories and words as needed
 };
 
