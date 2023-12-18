@@ -1,14 +1,14 @@
-const categories = ['Speiser Family Members', 'Speiser Foods', 'Classic Speiser Gifts', 'Free Merch from Speiser Jobs'];
+const categories = ['Car Models', 'Disney Movies', 'Famous Lakes', 'Mount Rushmore Presidents'];
 
 let words = [
-    // Category 1: Speiser Family Members
-    'Salsa', 'Connor', 'Zayda', 'Muffin',
-    // Category 2: Speiser Foods
-    'Brown Sauce', 'Challah', '"Chicken" Noodle Soup', 'Whoopie Pies',
-    // Category 3: Classic Speiser Gifts
-    'Socks', 'Cook Books', 'Chocolate Dreidels', 'Pickleball Accessories',
-    // Category 4: Free Merch from Speiser Jobs
-    'PSD Underwear', 'Spiderman Video Game Shirt', 'RSVLT Shirts', 'Nat Geo Duffel Bags'
+    // Category 1: Car Models
+    'Odyssey', 'Forester', 'Tahoe', 'Impala',
+    // Category 2: Disney Movies
+    'Soul', 'Cars', 'Luca', 'Up',
+    // Category 3: Famous Lakes
+    'Eerie', 'Superior', 'Como', 'Victoria',
+    // Category 4: Mount Rushmore Presidents
+    'George', 'Abraham', 'Thomas', 'Theodore'
     // Add more words as needed
 ];
 
@@ -124,10 +124,10 @@ function getCategoryForWord(word) {
 // ...
 
 const wordsByCategory = {
-    'Speiser Family Members': ['Salsa', 'Connor', 'Zayda', 'Muffin'],
-    'Speiser Foods': ['Brown Sauce', 'Challah', '"Chicken" Noodle Soup', 'Whoopie Pies'],
-    'Classic Speiser Gifts': ['Socks', 'Cook Books', 'Chocolate Dreidels', 'Pickleball Accessories'],
-    'Free Merch from Speiser Jobs': ['PSD Underwear', 'Spiderman Video Game Shirt', 'RSVLT Shirts', 'Nat Geo Duffel Bags']
+    'Car Models': ['Odyssey', 'Forester', 'Tahoe', 'Impala'],
+    'Disney Movies': ['Soul', 'Cars', 'Luca', 'Up'],
+    'Famous Lakes': ['Eerie', 'Superior', 'Como', 'Victoria'],
+    'Mount Rushmore Presidents': ['George', 'Abraham', 'Thomas', 'Theodore']
     // Add more categories and words as needed
 };
 
